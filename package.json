@@ -1,0 +1,26 @@
+{
+  "name": "zoom-grabber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahiv87/zoom-grabber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahiv87/zoom-grabber/issues"
+  },
+  "homepage": "https://github.com/mahiv87/zoom-grabber#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
