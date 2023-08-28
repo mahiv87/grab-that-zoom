@@ -21,6 +21,8 @@
     "selenium-webdriver": "^4.11.1"
   },
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "@types/node": "^20.5.7",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
   }
 }
