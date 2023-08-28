@@ -1,28 +1,28 @@
 {
-  "name": "zoom-grabber",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mahiv87/zoom-grabber.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mahiv87/zoom-grabber/issues"
-  },
-  "homepage": "https://github.com/mahiv87/zoom-grabber#readme",
-  "dependencies": {
-    "selenium-webdriver": "^4.11.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20.5.7",
-    "mocha": "^10.2.0",
-    "typescript": "^5.2.2"
-  }
+	"name": "zoom-grabber",
+	"version": "1.0.0",
+	"description": "",
+	"main": "script.js",
+	"scripts": {
+		"start": "npx tsc && cd build && node script.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mahiv87/zoom-grabber.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mahiv87/zoom-grabber/issues"
+	},
+	"homepage": "https://github.com/mahiv87/zoom-grabber#readme",
+	"devDependencies": {
+		"@types/node": "^20.5.7",
+		"@types/selenium-webdriver": "^4.1.16",
+		"chromedriver": "^116.0.0",
+		"mocha": "^10.2.0",
+		"selenium-webdriver": "^4.11.1",
+		"typescript": "^5.2.2"
+	}
 }
