@@ -39,9 +39,9 @@ async function main() {
 
 	driver.manage().setTimeouts({ implicit: 5000 });
 
-	let cloud_button = await driver.findElement(
-		By.xpath("//div[@class='ant-tabs-tab' and text()='Cloud Recordings']")
-	);
+	let parent_container = await driver.findElement(By.css(''));
+
+	let cloud_button = await driver.findElement(By.xpath('./*[last()]'));
 	await cloud_button.click();
 
 	// let currentUrl: string = await driver.getCurrentUrl();
